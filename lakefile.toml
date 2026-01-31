@@ -1,0 +1,10 @@
+name = "LeanReasoningSandbox"
+version = "0.1.0"
+defaultTargets = ["leanreasoningsandbox"]
+
+[[lean_lib]]
+name = "LeanReasoningSandbox"
+
+[[lean_exe]]
+name = "leanreasoningsandbox"
+root = "Main"
