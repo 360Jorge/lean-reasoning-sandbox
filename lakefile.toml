@@ -8,3 +8,8 @@ name = "LeanReasoningSandbox"
 [[lean_exe]]
 name = "leanreasoningsandbox"
 root = "Main"
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "master"
